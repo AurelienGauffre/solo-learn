@@ -110,3 +110,5 @@ def test_swav():
     )
     model.set_loaders(train_loader=train_dl, val_loader=val_dl)
     trainer.fit(model, train_dl, val_dl)
+if __name__ == '__main__':
+    test_swav()
